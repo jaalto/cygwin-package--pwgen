@@ -1,0 +1,74 @@
+pwgen
+------------------------------------------
+
+Automatic Password generation
+
+Generate random, meaningless but pronounceable passwords. These
+passwords contain either only lowercase letters, or upper and lower
+case mixed, or digits thrown in. Uppercase letters and digits are
+placed in a way that eases remembering their position when memorizing
+only the word.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://sourceforge.net/projects/pwgen
+  http://packages.debian.org/pwgen
+
+Canonical download:
+  See above
+
+Version control repository:
+  http://sourceforge.net/cvs/?group_id=28391
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Author: Theodore Ts'o <tytso@debian.org>, <tytso@users.sf.net>
+  Bugs: http://sourceforge.net/tracker/?atid=393204&group_id=28391&func=browse
+
+License:
+  GPL-2
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack pwgen-2.06-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./pwgen*.sh all
+
+This will create:
+  pwgen-2.06-1.tar.bz2
+  pwgen-2.06-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distribution:
+
+/usr/bin/pwgen.exe
+/usr/share/doc/Cygwin/pwgen-2.06.README
+/usr/share/doc/pwgen-2.06/ChangeLog
+/usr/share/man/man1/pwgen.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 2.06-1 -----
+- Initial release 2007-12-05 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later

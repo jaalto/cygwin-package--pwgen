@@ -1,0 +1,2 @@
+tag1: pwgen
+  http://packages.debian.org/unstable/pwgen pregexp:orig.tar.gz file:pwgen_2.06.orig.tar.gz new: x:
